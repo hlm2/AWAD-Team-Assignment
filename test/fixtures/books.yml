@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  control: MyString
+  author: MyString
+  title: MyString
+  loans: 1
+
+two:
+  control: MyString
+  author: MyString
+  title: MyString
+  loans: 1
