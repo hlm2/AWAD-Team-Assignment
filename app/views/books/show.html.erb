@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Control:</strong>
+  <%= @book.control %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @book.author %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @book.title %>
+</p>
+
+<p>
+  <strong>Loans:</strong>
+  <%= @book.loans %>
+</p>
+
+<p>
+  <strong>Find this book:</strong>
+  <% @link="http://capitadiscovery.co.uk/aberdeencity/items?query="
+  @query = @book.title + ' ' + @book.author
+  @finalsearch = ''
+  @terms = @query.split(' ')
+  @terms.cycle(1){|term| @finalsearch = @finalsearch + "+" + term}  
+  @link = @link + @finalsearch[1,@finalsearch.length()]
+  %> <a href="<%=@link%>">Here</a>
+  
+</p>
+<%= link_to 'Edit', edit_book_path(@book) %> |
+<%= link_to 'Back', books_path %>
