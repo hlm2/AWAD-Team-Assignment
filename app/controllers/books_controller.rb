@@ -1,5 +1,9 @@
 class BooksController < ApplicationController
   before_action :set_book, only: [:show, :edit, :update, :destroy]
+  before_filter :login_required, :only => :delete
+  before_filter :login_required, :only => :new
+  before_filter :login_required, :only => :edit
+  
 
   # GET /books
   # GET /books.json

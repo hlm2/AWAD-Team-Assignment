@@ -1,4 +1,13 @@
 Rails.application.routes.draw do
+  root :to => 'books#index'
+  get 'user/login'
+
+  post 'user/process_login'
+
+  get 'user/logout'
+
+  get 'user/my_account'
+
   resources :books do
     post 'search', :on => :collection
   end
