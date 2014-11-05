@@ -2,28 +2,26 @@
 development:
   adapter: postgresql
   database: project_development
-  username:
-  password:
+  username: postgres
+  password: postgres
   min_messages: warning
-  #host: 127.0.0.1
   host: localhost
   port: 5432
 
 test:
   adapter: postgresql
   database: project_test
-  username:
-  password:
+  username: postgres
+  password: postgres
   min_messages: warning
-  #host: 127.0.0.1
   host: localhost
   port: 5432
 
 production:
   adapter: postgresql
   database: project_production
-  username:
-  password:
+  username: postgres
+  password: postgres
   min_messages: warning
   host: localhost
   port: 5432
