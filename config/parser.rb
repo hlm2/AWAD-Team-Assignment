@@ -29,8 +29,17 @@ f.each do |line|
   
  #gets title
   title = line.split('/')[0]
+<<<<<<< HEAD
   
   puts title 
+=======
+    
+  puts control
+  puts title 
+  puts author
+  puts loans
+  puts '/'
+>>>>>>> ccca162021639c9a94c2f7b45ec8cd507384557b
   
   @books = Book.new
   @books.control = control

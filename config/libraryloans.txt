@@ -746,7 +746,11 @@ M0134839AB,"WarnerAlan",The deadman's pedal / Alan Warner,30
 340963433,"CleaveChris",Gold / Chris Cleave,26
 434016233,"FlynnKatie",Sunshine and shadows / Katie Flynn,26
 709098464,"ThompsonE. V. (Ernest Victor)1931-",Blue dress girl / E.V. Thompson,26
+<<<<<<< HEAD
 718154592,"CusslerClive1931-",Arctic drift / Clive Cussler26
+=======
+718154592,"CusslerClive1931-",Arctic drift / Clive Cussler,26
+>>>>>>> ccca162021639c9a94c2f7b45ec8cd507384557b
 749007486,"ThorntonMargaret1934-",Until we meet again / Margaret Thornton,26
 749908300,"RobertsNora",Heart of the sea / Nora Roberts,26
 074992926x,"RobertsNora",Black Hills / Nora Roberts,26
@@ -2368,7 +2372,11 @@ M0134875AB,"ChamberlainDiane1950-",Brass ring /  Diane Chamberlain,14
 857204750,"CrawfordDean",Apocalypse / Dean Crawford,12
 085738516x,"BoydHilary",Thursdays in the park / Hilary Boyd,12
 857385798,"SullivanMark T.",Rogue / Mark Sullivan,12
+<<<<<<< HEAD
 857865609,"GrayAlasdair"Every short story by Alasdair Gray1952-2012 / by Alasdair Gray,12
+=======
+857865609,"GrayAlasdair",Every short story by Alasdair Gray1952-2012 / by Alasdair Gray,12
+>>>>>>> ccca162021639c9a94c2f7b45ec8cd507384557b
 857890824,"BoxC.  J.",Cold wind  / C.J. Box,12
 1405089474,"ScottolineLisa",Daddy's girl / Lisa Scottoline,12
 1408809133,"WhitehouseLucie",The bed I made / Lucie Whitehouse,12
