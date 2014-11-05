@@ -31,11 +31,5 @@ ActiveRecord::Schema.define(version: 20141105102509) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
-  
-  user.rb:
-
-add :remember_token to attr_accessible
-
-Ex: "attr_accessible :username,:password,:remember_token"
 
 end
